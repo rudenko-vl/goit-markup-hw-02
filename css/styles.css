@@ -1,10 +1,18 @@
 body {
-    background-color: #E5E5E5;
-    font-family: Roboto;
+  background-color: #e5e5e5;
+  font-family: Roboto;
 }
 .nav {
-    color: #212121
+  color: #212121;
 }
-.nav:hover {
-    color: #2196F3;
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+}
+.contact {
+  color: #757575;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
 }
