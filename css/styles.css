@@ -1,0 +1,10 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Roboto;
+}
+.nav {
+    color: #212121
+}
+.nav:hover {
+    color: #2196F3;
+}
