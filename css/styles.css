@@ -1,12 +1,61 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: Roboto;
 }
-.nav {
+ol,
+ul {
+  list-style: none;
+}
+header {
+  background-color: #ececec;
+}
+.logo-web-top {
+  color: #2196f3;
+}
+.logo-studio-top {
+  color: #000000;
+}
+footer {
+  background-color: #2f303a;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #ffffff;
+}
+.address-footer {
+  color: #ffffff;
+}
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.hero {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.service {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.service:focus,
+.service:hover {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+.navigation-list-link {
   color: #212121;
 }
-.nav:hover,
-.nav:focus {
+.navigation-list-link-current {
+  color: #2196f3;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: #2196f3;
 }
 .contact {
@@ -15,4 +64,13 @@ body {
 .contact:hover,
 .contact:focus {
   color: #2196f3;
+}
+.filters {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.filters:focus,
+.filters:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
