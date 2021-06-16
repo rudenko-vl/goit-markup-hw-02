@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
-  font-family: Roboto;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
 }
 ol,
 ul {
@@ -9,20 +10,34 @@ ul {
 header {
   background-color: #ececec;
 }
+/* Logo */
+
 .logo-web-top {
   color: #2196f3;
 }
 .logo-studio-top {
   color: #000000;
 }
-footer {
-  background-color: #2f303a;
-}
 .logo-web {
   color: #2196f3;
 }
 .logo-studio {
   color: #ffffff;
+}
+.logo-header,
+.logo-footer {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 31px;
+  font-style: normal;
+  font-weight: bold;
+}
+h2,
+h3 {
+  color: #212121;
+}
+footer {
+  background-color: #2f303a;
 }
 .address-footer {
   color: #ffffff;
@@ -48,12 +63,6 @@ footer {
   background-color: #188ce8;
   color: #ffffff;
 }
-.navigation-list-link {
-  color: #212121;
-}
-.navigation-list-link-current {
-  color: #2196f3;
-}
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: #2196f3;
@@ -73,4 +82,15 @@ footer {
 .filters:hover {
   background-color: #2196f3;
   color: #ffffff;
+}
+p {
+  color: #757575;
+}
+.navigation-list-link {
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+}
+.navigation-list-link-current {
+  color: #2196f3;
 }
