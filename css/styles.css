@@ -1,96 +1,179 @@
-body {
-  background-color: #ffffff;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196F3;
 }
-ol,
-ul {
+.list {
   list-style: none;
 }
-header {
-  background-color: #ececec;
+.link {
+  text-decoration: none;
 }
-/* Logo */
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
 
-.logo-web-top {
-  color: #2196f3;
+/* -------------- HEDER -------------- */
+
+.logo-web-top, .logo-web-bottom, .logo-studio-top, .logo-studio-bottom {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-web-top, .logo-web-bottom {
+  color: var(--accent-color);
 }
 .logo-studio-top {
   color: #000000;
 }
-.logo-web {
-  color: #2196f3;
+.logo-studio-bottom {
+  color:
+  #FFFFFF;
 }
-.logo-studio {
-  color: #ffffff;
-}
-.logo-header,
-.logo-footer {
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 31px;
-  font-style: normal;
-  font-weight: bold;
-}
-h2,
-h3 {
+.navigation-list {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-footer {
-  background-color: #2f303a;
+.link-current {
+  color: var(--accent-color);
 }
-.address-footer {
-  color: #ffffff;
+.navigation-list:hover,
+.navigation-list:focus {
+  color: var(--accent-color);
 }
-.link-footer {
-  color: rgba(255, 255, 255, 0.6);
+.contact-link {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* -------------- END HEDER -----------*/
+
+/* --------------HERO ---------------- */
 .hero {
-  background-color: #2f303a;
-}
+  background-color: #2F303A;
+}  
 .main-title {
-  color: #ffffff;
-}
-.team {
-  background-color: #f5f4fa;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
 .service {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 .service:focus,
 .service:hover {
   background-color: #188ce8;
   color: #ffffff;
 }
-.navigation-list-link:hover,
-.navigation-list-link:focus {
-  color: #2196f3;
+/* --------------END HERO ------------ */
+
+/* ----------FEATURE----------------- */
+.feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.contact {
+.feature-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #757575;
 }
-.contact:hover,
-.contact:focus {
-  color: #2196f3;
-}
-.filters {
-  background-color: #f5f4fa;
+/* ----------END FEATURE------------- */
+
+/* ----------OUR WORKS------------- */
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #212121;
+}
+/* ----------END OUR WORKS---------- */
+
+/* ----------TEAM---------- */
+.team {
+  background-color: #f5f4fa;
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.member-team{
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ----------END TEAM------ */
+
+/* ----------FOOTER--------- */
+footer {
+  background-color: #2F303A;
+}
+.address-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.link-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ----------END FOOTER------ */
+
+/* ----------PORTFOLIO--------- */
+.filters {
+  background-color: #F5F4FA;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
 }
 .filters:focus,
 .filters:hover {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
-p {
-  color: #757575;
-}
-.navigation-list-link {
-  color: #212121;
-  font-style: normal;
-  font-weight: 500;
-}
-.navigation-list-link-current {
-  color: #2196f3;
-}
+/* ----------END PORTFOLIO----- */
