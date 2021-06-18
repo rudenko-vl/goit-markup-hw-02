@@ -1,7 +1,7 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --accent-color: #2196F3;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
 }
 .list {
   list-style: none;
@@ -16,22 +16,25 @@ body {
 
 /* -------------- HEDER -------------- */
 
-.logo-web-top, .logo-web-bottom, .logo-studio-top, .logo-studio-bottom {
+.logo-web-top,
+.logo-web-bottom,
+.logo-studio-top,
+.logo-studio-bottom {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.logo-web-top, .logo-web-bottom {
+.logo-web-top,
+.logo-web-bottom {
   color: var(--accent-color);
 }
 .logo-studio-top {
   color: #000000;
 }
 .logo-studio-bottom {
-  color:
-  #FFFFFF;
+  color: #ffffff;
 }
 .navigation-list {
   color: #212121;
@@ -62,14 +65,16 @@ body {
 
 /* --------------HERO ---------------- */
 .hero {
-  background-color: #2F303A;
-}  
+  background-color: #2f303a;
+  text-align: center;
+}
 .main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 .service {
   background-color: var(--accent-color);
@@ -77,7 +82,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .service:focus,
@@ -94,6 +99,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
+  text-transform: uppercase;
 }
 .feature-text {
   font-size: 14px;
@@ -124,7 +130,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.member-team{
+.member-team {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -140,14 +146,14 @@ body {
 
 /* ----------FOOTER--------- */
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .address-footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .link-footer {
   font-style: normal;
@@ -160,7 +166,7 @@ footer {
 
 /* ----------PORTFOLIO--------- */
 .filters {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -175,5 +181,18 @@ footer {
 .filters:hover {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+.card-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.type-of-card {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* ----------END PORTFOLIO----- */
